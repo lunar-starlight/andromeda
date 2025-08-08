@@ -38,5 +38,7 @@ build: [
     "@runtest" {with-test}
     "@doc" {with-doc}
   ]
+]
+install : [
   ["dune" "install" "-p" name "--create-install-files" name]
 ]
